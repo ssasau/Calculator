@@ -40,7 +40,7 @@ public class AddServlet extends HttpServlet {
 		
 		PrintWriter writer = response.getWriter();
 		
-		writer.println("<h1>The result is " + res + "</h1>");
+		writer.println("<h1>Sum = " + res + "</h1>");
 		writer.close();
 	}
 }
